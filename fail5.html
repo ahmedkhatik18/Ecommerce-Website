@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: green;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        /* Header and Logo */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px 0;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .logo-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            animation: logoGlow 2s ease-in-out infinite alternate;
+        }
+        
+        .logo-text {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .logo-brand h2 {
+            color: white;
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .tagline {
+            color: rgba(255,255,255,0.9);
+            font-size: 14px;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+        
+        @keyframes logoGlow {
+            from {
+                box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            }
+            to {
+                box-shadow: 0 4px 25px rgba(255,107,107,0.4);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <span class="logo-text">W</span>
+            </div>
+            <div class="logo-brand">
+                <h2>WebSite</h2>
+                <span class="tagline">Your Digital Partner</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is a basic HTML page. You can customize it by adding your own content, styling, and functionality.</p>
+        <p>Feel free to modify this file to suit your needs!</p>
+    </div>
+</body>
+</html>
